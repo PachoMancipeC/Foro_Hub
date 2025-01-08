@@ -1,6 +1,6 @@
 # Foro_Hub
 
-Esta aplicacón está diseñada para insertar tópicos en un foro, donde se incluye inicialmente el título, mensaje, autor y curso. 
+Esta aplicación está diseñada para insertar tópicos en un foro, donde se incluye inicialmente el título, mensaje, autor y curso. 
 
 Se puede también hacer un listado de todos los tópicos que se encuentran presentes en la base de datos, incluyendo junto a los parámetros el id, status y fecha de creación; el listado tambien se puede realizar para cada tópico especificando el número de id en la ruta de dirección.
 
