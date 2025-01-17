@@ -8,5 +8,7 @@ Se puede realizar la actualización de cada tópico, a partir también del id en
 
 Y también se puede eliminar un tópico removiéndolo de la base de datos a apartir de su id especificado en la ruta de dirección.
 
+En esta modificación se incluye el registro de un usuario con su respectiva contraseña, y posterior a ello se genera un token con el cual se debe acceder a los distintos requerimientos. Este token tiene una duración de dos (2) horas
+
 
  Esta aplicación se vincula mediante MySQL para el acceso a la base de datos

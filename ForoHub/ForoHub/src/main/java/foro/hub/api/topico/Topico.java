@@ -23,8 +23,7 @@ public class Topico {
 
     @Column(name = "status")
     private String status;
-    
-    private Boolean activo;
+
     private String autor;
     private String curso;
 
@@ -39,7 +38,6 @@ public class Topico {
     }
 
     public Topico(DatosRegistroTopico datosRegistroTopico) {
-        this.activo = true;
         this.titulo = datosRegistroTopico.titulo();
         this.mensaje = datosRegistroTopico.mensaje();
         this.status = "ABIERTO";

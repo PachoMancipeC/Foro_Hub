@@ -31,8 +31,8 @@ public class TopicoController {
 
     @GetMapping
     public Page<DatosListadoTopico> listadoTopicos(@PageableDefault(size=10) Pageable paginacion) {
-//        return topicoRepository.findAll(paginacion).map(DatosListadoTopico::new);
-        return topicoRepository.findByActivoTrue(paginacion).map(DatosListadoTopico::new);
+        return topicoRepository.findAll(paginacion).map(DatosListadoTopico::new);
+
     }
 
     @GetMapping("/{id}")
